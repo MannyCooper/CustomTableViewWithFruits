@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		D25E784B26F44A4800A8FCB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E784A26F44A4800A8FCB5 /* AppDelegate.swift */; };
 		D25E784D26F44A4800A8FCB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E784C26F44A4800A8FCB5 /* SceneDelegate.swift */; };
-		D25E784F26F44A4800A8FCB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E784E26F44A4800A8FCB5 /* ViewController.swift */; };
 		D25E785226F44A4800A8FCB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25E785026F44A4800A8FCB5 /* Main.storyboard */; };
 		D25E785426F44A4A00A8FCB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25E785326F44A4A00A8FCB5 /* Assets.xcassets */; };
 		D25E785726F44A4A00A8FCB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25E785526F44A4A00A8FCB5 /* LaunchScreen.storyboard */; };
+		D25E785F26F44AC900A8FCB5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E785E26F44AC900A8FCB5 /* TableViewController.swift */; };
+		D25E786126F44F7900A8FCB5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E786026F44F7900A8FCB5 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D25E784726F44A4800A8FCB5 /* TableViewControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25E784A26F44A4800A8FCB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D25E784C26F44A4800A8FCB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D25E784E26F44A4800A8FCB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D25E785126F44A4800A8FCB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D25E785326F44A4A00A8FCB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D25E785626F44A4A00A8FCB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D25E785826F44A4A00A8FCB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D25E785E26F44AC900A8FCB5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D25E786026F44F7900A8FCB5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				D25E784A26F44A4800A8FCB5 /* AppDelegate.swift */,
 				D25E784C26F44A4800A8FCB5 /* SceneDelegate.swift */,
-				D25E784E26F44A4800A8FCB5 /* ViewController.swift */,
 				D25E785026F44A4800A8FCB5 /* Main.storyboard */,
 				D25E785326F44A4A00A8FCB5 /* Assets.xcassets */,
 				D25E785526F44A4A00A8FCB5 /* LaunchScreen.storyboard */,
 				D25E785826F44A4A00A8FCB5 /* Info.plist */,
+				D25E785E26F44AC900A8FCB5 /* TableViewController.swift */,
+				D25E786026F44F7900A8FCB5 /* TableViewCell.swift */,
 			);
 			path = TableViewControllerExample;
 			sourceTree = "<group>";
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D25E784F26F44A4800A8FCB5 /* ViewController.swift in Sources */,
 				D25E784B26F44A4800A8FCB5 /* AppDelegate.swift in Sources */,
+				D25E786126F44F7900A8FCB5 /* TableViewCell.swift in Sources */,
+				D25E785F26F44AC900A8FCB5 /* TableViewController.swift in Sources */,
 				D25E784D26F44A4800A8FCB5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
